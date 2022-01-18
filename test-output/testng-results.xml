@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-18T21:04:57 IST" name="Default suite" finished-at="2022-01-18T21:05:14 IST" duration-ms="16630">
+    <groups>
+    </groups>
+    <test started-at="2022-01-18T21:04:57 IST" name="Default test" finished-at="2022-01-18T21:05:14 IST" duration-ms="16630">
+      <class name="testClasses.UrbanLadderHomePage">
+        <test-method signature="openHomePage()[pri:0, instance:testClasses.UrbanLadderHomePage@3daa422a]" started-at="2022-01-18T21:04:57 IST" name="openHomePage" finished-at="2022-01-18T21:05:06 IST" duration-ms="8980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="checkVisibilityOfNavbar()[pri:1, instance:testClasses.UrbanLadderHomePage@3daa422a]" started-at="2022-01-18T21:05:06 IST" name="checkVisibilityOfNavbar" finished-at="2022-01-18T21:05:06 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVisibilityOfNavbar -->
+        <test-method signature="testStudyMenu()[pri:2, instance:testClasses.UrbanLadderHomePage@3daa422a]" started-at="2022-01-18T21:05:06 IST" name="testStudyMenu" finished-at="2022-01-18T21:05:07 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudyMenu -->
+        <test-method signature="testStudyChairs()[pri:3, instance:testClasses.UrbanLadderHomePage@3daa422a]" started-at="2022-01-18T21:05:07 IST" name="testStudyChairs" finished-at="2022-01-18T21:05:07 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudyChairs -->
+        <test-method signature="testFurnitureRange()[pri:4, instance:testClasses.UrbanLadderHomePage@3daa422a]" started-at="2022-01-18T21:05:07 IST" name="testFurnitureRange" finished-at="2022-01-18T21:05:07 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFurnitureRange -->
+        <test-method signature="testClickAbilityOfFurnitureRange()[pri:5, instance:testClasses.UrbanLadderHomePage@3daa422a]" started-at="2022-01-18T21:05:07 IST" name="testClickAbilityOfFurnitureRange" finished-at="2022-01-18T21:05:08 IST" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickAbilityOfFurnitureRange -->
+        <test-method signature="goToBookshelves()[pri:6, instance:testClasses.UrbanLadderHomePage@3daa422a]" started-at="2022-01-18T21:05:08 IST" name="goToBookshelves" finished-at="2022-01-18T21:05:14 IST" duration-ms="5932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBookshelves -->
+      </class> <!-- testClasses.UrbanLadderHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
