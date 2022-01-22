@@ -5,7 +5,8 @@
     <classes>
       <class name="testClasses.UrbanLadderHomePage">
         <methods>
-          <include name="testFurnitureRange"/>
+          <include name="testSubMenu"/>
+          <include name="testVisibilityOfBeingAtHome"/>
         </methods>
       </class> <!-- testClasses.UrbanLadderHomePage -->
     </classes>

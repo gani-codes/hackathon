@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Photon\AppData\Local\Temp\testng-eclipse-1366873128\testng-customsuite.xml</span>
+                    <span>C:\Users\Photon\AppData\Local\Temp\testng-eclipse-2095546861\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,   7 passed</span>
+                    <span class="method-stats">13 methods, 1 failed,  1 skipped,  11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="testVisibilityOfBeingAtHome">testVisibilityOfBeingAtHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="testSubMenu">testSubMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,12 +137,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="goToBookshelves">goToBookshelves</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="openHomePage">openHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="openHomePage">openHomePage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="printBookshelvesDetailsExcluding">printBookshelvesDetailsExcluding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="printBookshelvesDetailsIncluding">printBookshelvesDetailsIncluding</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,6 +170,21 @@
                         <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="testStudyMenu">testStudyMenu</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="testVisibilityOfFilters">testVisibilityOfFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="testVisibilityOfSortByOption">testVisibilityOfSortByOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testClasses.UrbanLadderHomePage" class="method navigator-link" hash-for-method="testVisibilityOfStockCheckBox">testVisibilityOfStockCheckBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
@@ -149,6 +197,98 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testClasses.UrbanLadderHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVisibilityOfBeingAtHome">
+                  </a> <!-- testVisibilityOfBeingAtHome -->
+                  <span class="method-name">testVisibilityOfBeingAtHome</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -&gt; xpath: //*[@id=&quot;topnav_wrapper&quot;]/ul/li[10]/div/div/ul/li/ul/li/a/span]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.1&apos;, revision: &apos;e8fcc2cecf&apos;
+System info: host: &apos;DESKTOP-PHOTON&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Photon\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60975/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a140325d82c12be470eb1002cbf12092
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at pageClasses.LandingPage.visibilityOfBeingAtHome(LandingPage.java:54)
+	at testClasses.UrbanLadderHomePage.testVisibilityOfBeingAtHome(UrbanLadderHomePage.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testClasses.UrbanLadderHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubMenu">
+                  </a> <!-- testSubMenu -->
+                  <span class="method-name">testSubMenu</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UrbanLadderHomePage.testSubMenu()[pri:0, instance:testClasses.UrbanLadderHomePage@5f058f00] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -164,16 +304,23 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="goToBookshelves">
-                  </a> <!-- goToBookshelves -->
-                  <span class="method-name">goToBookshelves</span>
+                  <a name="openHomePage">
+                  </a> <!-- openHomePage -->
+                  <span class="method-name">openHomePage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="openHomePage">
-                  </a> <!-- openHomePage -->
-                  <span class="method-name">openHomePage</span>
+                  <a name="printBookshelvesDetailsExcluding">
+                  </a> <!-- printBookshelvesDetailsExcluding -->
+                  <span class="method-name">printBookshelvesDetailsExcluding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printBookshelvesDetailsIncluding">
+                  </a> <!-- printBookshelvesDetailsIncluding -->
+                  <span class="method-name">printBookshelvesDetailsIncluding</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -204,12 +351,33 @@
                   <span class="method-name">testStudyMenu</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVisibilityOfFilters">
+                  </a> <!-- testVisibilityOfFilters -->
+                  <span class="method-name">testVisibilityOfFilters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVisibilityOfSortByOption">
+                  </a> <!-- testVisibilityOfSortByOption -->
+                  <span class="method-name">testVisibilityOfSortByOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVisibilityOfStockCheckBox">
+                  </a> <!-- testVisibilityOfStockCheckBox -->
+                  <span class="method-name">testVisibilityOfStockCheckBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Photon\AppData\Local\Temp\testng-eclipse-1366873128\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Photon\AppData\Local\Temp\testng-eclipse-2095546861\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -258,40 +426,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'openHomePage')
+data.setCell(0, 1, 'testVisibilityOfBeingAtHome')
 data.setCell(0, 2, 'testClasses.UrbanLadderHomePage')
-data.setCell(0, 3, 8980);
+data.setCell(0, 3, 15962);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'goToBookshelves')
+data.setCell(1, 1, 'printBookshelvesDetailsIncluding')
 data.setCell(1, 2, 'testClasses.UrbanLadderHomePage')
-data.setCell(1, 3, 5932);
+data.setCell(1, 3, 8220);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testClickAbilityOfFurnitureRange')
+data.setCell(2, 1, 'testVisibilityOfFilters')
 data.setCell(2, 2, 'testClasses.UrbanLadderHomePage')
-data.setCell(2, 3, 506);
+data.setCell(2, 3, 6339);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testStudyChairs')
+data.setCell(3, 1, 'printBookshelvesDetailsExcluding')
 data.setCell(3, 2, 'testClasses.UrbanLadderHomePage')
-data.setCell(3, 3, 466);
+data.setCell(3, 3, 5340);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testFurnitureRange')
+data.setCell(4, 1, 'openHomePage')
 data.setCell(4, 2, 'testClasses.UrbanLadderHomePage')
-data.setCell(4, 3, 268);
+data.setCell(4, 3, 4688);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testStudyMenu')
 data.setCell(5, 2, 'testClasses.UrbanLadderHomePage')
-data.setCell(5, 3, 257);
+data.setCell(5, 3, 1179);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkVisibilityOfNavbar')
+data.setCell(6, 1, 'testClickAbilityOfFurnitureRange')
 data.setCell(6, 2, 'testClasses.UrbanLadderHomePage')
-data.setCell(6, 3, 147);
+data.setCell(6, 3, 371);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testStudyChairs')
+data.setCell(7, 2, 'testClasses.UrbanLadderHomePage')
+data.setCell(7, 3, 308);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testFurnitureRange')
+data.setCell(8, 2, 'testClasses.UrbanLadderHomePage')
+data.setCell(8, 3, 226);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkVisibilityOfNavbar')
+data.setCell(9, 2, 'testClasses.UrbanLadderHomePage')
+data.setCell(9, 3, 76);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testVisibilityOfSortByOption')
+data.setCell(10, 2, 'testClasses.UrbanLadderHomePage')
+data.setCell(10, 3, 29);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testVisibilityOfStockCheckBox')
+data.setCell(11, 2, 'testClasses.UrbanLadderHomePage')
+data.setCell(11, 3, 29);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSubMenu')
+data.setCell(12, 2, 'testClasses.UrbanLadderHomePage')
+data.setCell(12, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -324,27 +516,53 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkVisibilityOfNavbar</span>
-                <span class="method-start">8987 ms</span>
+                <span class="method-start">4704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testVisibilityOfBeingAtHome</span>
+                <span class="method-start">4787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubMenu</span>
+                <span class="method-start">20757 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testStudyMenu</span>
-                <span class="method-start">9136 ms</span>
+                <span class="method-start">20769 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testStudyChairs</span>
-                <span class="method-start">9397 ms</span>
+                <span class="method-start">21953 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testFurnitureRange</span>
-                <span class="method-start">9864 ms</span>
+                <span class="method-start">22263 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testClickAbilityOfFurnitureRange</span>
-                <span class="method-start">10134 ms</span>
+                <span class="method-start">22490 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">goToBookshelves</span>
-                <span class="method-start">10641 ms</span>
+                <span class="method-name">testVisibilityOfFilters</span>
+                <span class="method-start">22862 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVisibilityOfStockCheckBox</span>
+                <span class="method-start">29202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVisibilityOfSortByOption</span>
+                <span class="method-start">29233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printBookshelvesDetailsIncluding</span>
+                <span class="method-start">29263 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">printBookshelvesDetailsExcluding</span>
+                <span class="method-start">37485 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
