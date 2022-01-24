@@ -9,7 +9,7 @@ import pageClasses.LandingPage;
 public class PageBaseClass extends BaseClass {
 	//open the website
 	//validatation
-	
+	public String parent;
 	public PageBaseClass(WebDriver driver) {
 		this.driver = driver;
 	}

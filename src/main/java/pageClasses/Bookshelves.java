@@ -62,6 +62,8 @@ public class Bookshelves extends PageBaseClass {
 
 	@FindBy(xpath = "//span[@itemprop='name' and @class='name']")
 	List<WebElement> bookShelvesNames;
+	@FindBy(xpath = "//*[@id=\"content\"]/div[3]/ul/li/div/div[5]/a/div[1]/div[1]")
+	List<WebElement> bookShelvesDesc;
 	@FindBy(xpath = "//div[@class='price-number']/span")
 	List<WebElement> bookShelvesCost;
 
@@ -98,8 +100,8 @@ public class Bookshelves extends PageBaseClass {
 		System.out.println("\n\nThe details of bookshelves under 15000 and INCLUDING out of stocks are:\n\n");
 		for (int i = 0; i < bookShelvesNames.size(); i++) {
 			// to print directly
-			System.out
-					.println(bookShelvesNames.get(i).getText() + " - " + bookShelvesCost.get(i).getText().substring(1));
+			System.out.println(bookShelvesNames.get(i).getText() + " - " + bookShelvesDesc.get(i).getText() + " - "
+					+ bookShelvesCost.get(i).getText().substring(1));
 
 		}
 	}
@@ -119,8 +121,8 @@ public class Bookshelves extends PageBaseClass {
 		System.out.println("\n\nThe details of bookshelves under 15000 and EXCLUDING out of stocks are:\n\n");
 		for (int i = 0; i < bookShelvesNames.size(); i++) {
 			// to print directly
-			System.out
-					.println(bookShelvesNames.get(i).getText() + " - " + bookShelvesCost.get(i).getText().substring(1));
+			System.out.println(bookShelvesNames.get(i).getText() + " - " + bookShelvesDesc.get(i).getText() + " - "
+					+ bookShelvesCost.get(i).getText().substring(1));
 
 		}
 
@@ -130,6 +132,9 @@ public class Bookshelves extends PageBaseClass {
 	WebElement giftCards;
 
 	public GiftCards goToGiftCards() {
+
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		jse.executeScript("arguments[0].scrollIntoView()", giftCards);
 		giftCards.click();
 		return PageFactory.initElements(driver, GiftCards.class);
 	}

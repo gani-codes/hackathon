@@ -72,6 +72,7 @@ public class LandingPage extends PageBaseClass {
 		return false;		
 	}
 
+
 	/* Study Menu in Top Navigation Bar */
 	public void checkStudyMenu() {
 		WebElement studyMenu;
@@ -104,6 +105,16 @@ public class LandingPage extends PageBaseClass {
 			e.printStackTrace();
 		}
 		return bool;
+	}
+	
+	//Printing top 3 recommended study chairs
+	public StudyChair printStudyChairs() {
+		parent = driver.getWindowHandle();
+		WebElement link = driver.findElement(By.xpath("//*[@id=\"topnav_wrapper\"]/ul/li[6]/div/div/ul/li[2]/ul/li[1]/a"));
+		link.click();
+		
+		return PageFactory.initElements(driver, StudyChair.class);
+
 	}
 
 	/* Checking whether all items are present in Explore Furniture Range section */

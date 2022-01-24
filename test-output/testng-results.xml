@@ -1,41 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="11" failed="1" skipped="1">
+<testng-results ignored="0" total="24" passed="22" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-22T11:51:47 IST" name="Default suite" finished-at="2022-01-22T11:52:29 IST" duration-ms="42896">
+  <suite started-at="2022-01-24T14:07:56 IST" name="Default suite" finished-at="2022-01-24T14:09:32 IST" duration-ms="96425">
     <groups>
     </groups>
-    <test started-at="2022-01-22T11:51:47 IST" name="Default test" finished-at="2022-01-22T11:52:29 IST" duration-ms="42896">
+    <test started-at="2022-01-24T14:07:56 IST" name="Default test" finished-at="2022-01-24T14:09:32 IST" duration-ms="96425">
       <class name="testClasses.UrbanLadderHomePage">
-        <test-method signature="openHomePage()[pri:0, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:51:47 IST" name="openHomePage" finished-at="2022-01-22T11:51:51 IST" duration-ms="4688" status="PASS">
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:07:50 IST" name="openHomePage" finished-at="2022-01-24T14:07:56 IST" duration-ms="5860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHomePage -->
-        <test-method signature="checkVisibilityOfNavbar()[pri:1, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:51:51 IST" name="checkVisibilityOfNavbar" finished-at="2022-01-22T11:51:51 IST" duration-ms="76" status="PASS">
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:07:56 IST" name="verifyHomePageTitle" finished-at="2022-01-24T14:07:56 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="checkVisibilityOfNavbar()[pri:1, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:07:56 IST" name="checkVisibilityOfNavbar" finished-at="2022-01-24T14:07:56 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkVisibilityOfNavbar -->
-        <test-method signature="testVisibilityOfBeingAtHome()[pri:1, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:51:51 IST" name="testVisibilityOfBeingAtHome" finished-at="2022-01-22T11:52:07 IST" duration-ms="15962" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="testStudyMenu()[pri:2, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:07:56 IST" name="testStudyMenu" finished-at="2022-01-24T14:07:57 IST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudyMenu -->
+        <test-method signature="testStudyChairs()[pri:3, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:07:57 IST" name="testStudyChairs" finished-at="2022-01-24T14:07:58 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudyChairs -->
+        <test-method signature="printStudyChairs()[pri:4, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:07:58 IST" name="printStudyChairs" finished-at="2022-01-24T14:08:01 IST" duration-ms="3221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printStudyChairs -->
+        <test-method signature="testFurnitureRange()[pri:5, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:01 IST" name="testFurnitureRange" finished-at="2022-01-24T14:08:01 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFurnitureRange -->
+        <test-method signature="testClickAbilityOfFurnitureRange()[pri:6, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:01 IST" name="testClickAbilityOfFurnitureRange" finished-at="2022-01-24T14:08:02 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickAbilityOfFurnitureRange -->
+        <test-method signature="testVisibilityOfFilters()[pri:7, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:02 IST" name="testVisibilityOfFilters" finished-at="2022-01-24T14:08:08 IST" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVisibilityOfFilters -->
+        <test-method signature="testVisibilityOfStockCheckBox()[pri:8, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:08 IST" name="testVisibilityOfStockCheckBox" finished-at="2022-01-24T14:08:08 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVisibilityOfStockCheckBox -->
+        <test-method signature="testVisibilityOfSortByOption()[pri:9, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:08 IST" name="testVisibilityOfSortByOption" finished-at="2022-01-24T14:08:08 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVisibilityOfSortByOption -->
+        <test-method signature="printBookshelvesDetailsIncluding()[pri:10, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:08 IST" name="printBookshelvesDetailsIncluding" finished-at="2022-01-24T14:08:17 IST" duration-ms="9282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBookshelvesDetailsIncluding -->
+        <test-method signature="printBookshelvesDetailsExcluding()[pri:11, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:17 IST" name="printBookshelvesDetailsExcluding" finished-at="2022-01-24T14:08:23 IST" duration-ms="5622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printBookshelvesDetailsExcluding -->
+        <test-method signature="goToGiftCards()[pri:12, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:23 IST" name="goToGiftCards" finished-at="2022-01-24T14:08:25 IST" duration-ms="1918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToGiftCards -->
+        <test-method signature="testVisibilityOfBeingAtHome()[pri:12, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:08:25 IST" name="testVisibilityOfBeingAtHome" finished-at="2022-01-24T14:09:25 IST" duration-ms="60081" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span]] (tried for 15 second(s) with 500 milliseconds interval)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='topnav_wrapper']/ul/li[10]"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-PHOTON', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Photon\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60975/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a140325d82c12be470eb1002cbf12092]]>
+Command: [4e37167825f9c98ccfc5249f1169eff9, findElement {using=xpath, value=//*[@id='topnav_wrapper']/ul/li[10]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Photon\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57963/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e37167825f9c98ccfc5249f1169eff9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span], [[ChromeDriver: chrome on WINDOWS (a140325d82c12be470eb1002cbf12092)] -> xpath: //*[@id="topnav_wrapper"]/ul/li[10]/div/div/ul/li/ul/li/a/span]] (tried for 15 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='topnav_wrapper']/ul/li[10]"}
+  (Session info: chrome=97.0.4692.71)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'DESKTOP-PHOTON', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Photon\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60975}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60975/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a140325d82c12be470eb1002cbf12092
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at pageClasses.LandingPage.visibilityOfBeingAtHome(LandingPage.java:54)
-at testClasses.UrbanLadderHomePage.testVisibilityOfBeingAtHome(UrbanLadderHomePage.java:97)
+Command: [4e37167825f9c98ccfc5249f1169eff9, findElement {using=xpath, value=//*[@id='topnav_wrapper']/ul/li[10]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Photon\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:57963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57963/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e37167825f9c98ccfc5249f1169eff9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at pageClasses.LandingPage.visibilityOfBeingAtHome(LandingPage.java:40)
+at testClasses.UrbanLadderHomePage.testVisibilityOfBeingAtHome(UrbanLadderHomePage.java:123)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,17 +134,17 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVisibilityOfBeingAtHome -->
-        <test-method signature="testSubMenu()[pri:0, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:07 IST" name="testSubMenu" finished-at="2022-01-22T11:52:07 IST" depends-on-methods="testClasses.UrbanLadderHomePage.testVisibilityOfBeingAtHome" duration-ms="0" status="SKIP">
+        <test-method signature="testSubMenu()[pri:0, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:25 IST" name="testSubMenu" finished-at="2022-01-24T14:09:25 IST" depends-on-methods="testClasses.UrbanLadderHomePage.testVisibilityOfBeingAtHome" duration-ms="1" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method UrbanLadderHomePage.testSubMenu()[pri:0, instance:testClasses.UrbanLadderHomePage@5f058f00] depends on not successfully finished methods]]>
+              <![CDATA[Method UrbanLadderHomePage.testSubMenu()[pri:0, instance:testClasses.UrbanLadderHomePage@595b007d] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method UrbanLadderHomePage.testSubMenu()[pri:0, instance:testClasses.UrbanLadderHomePage@5f058f00] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method UrbanLadderHomePage.testSubMenu()[pri:0, instance:testClasses.UrbanLadderHomePage@595b007d] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -102,42 +170,46 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubMenu -->
-        <test-method signature="testStudyMenu()[pri:2, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:07 IST" name="testStudyMenu" finished-at="2022-01-22T11:52:09 IST" duration-ms="1179" status="PASS">
+        <test-method signature="testVisibilityOfGiftCards()[pri:13, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:25 IST" name="testVisibilityOfGiftCards" finished-at="2022-01-24T14:09:25 IST" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testStudyMenu -->
-        <test-method signature="testStudyChairs()[pri:3, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:09 IST" name="testStudyChairs" finished-at="2022-01-22T11:52:09 IST" duration-ms="308" status="PASS">
+        </test-method> <!-- testVisibilityOfGiftCards -->
+        <test-method signature="testVisibilityOfBirthdayOption()[pri:14, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:25 IST" name="testVisibilityOfBirthdayOption" finished-at="2022-01-24T14:09:25 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testStudyChairs -->
-        <test-method signature="testFurnitureRange()[pri:4, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:09 IST" name="testFurnitureRange" finished-at="2022-01-22T11:52:09 IST" duration-ms="226" status="PASS">
+        </test-method> <!-- testVisibilityOfBirthdayOption -->
+        <test-method signature="testClickablityOfBirthdayOption()[pri:15, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:25 IST" name="testClickablityOfBirthdayOption" finished-at="2022-01-24T14:09:25 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFurnitureRange -->
-        <test-method signature="testClickAbilityOfFurnitureRange()[pri:5, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:09 IST" name="testClickAbilityOfFurnitureRange" finished-at="2022-01-22T11:52:09 IST" duration-ms="371" status="PASS">
+        </test-method> <!-- testClickablityOfBirthdayOption -->
+        <test-method signature="testPriceButtonsClickable()[pri:16, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:25 IST" name="testPriceButtonsClickable" finished-at="2022-01-24T14:09:25 IST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testClickAbilityOfFurnitureRange -->
-        <test-method signature="testVisibilityOfFilters()[pri:6, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:09 IST" name="testVisibilityOfFilters" finished-at="2022-01-22T11:52:16 IST" duration-ms="6339" status="PASS">
+        </test-method> <!-- testPriceButtonsClickable -->
+        <test-method signature="testNextBtnEnabled3()[pri:17, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:25 IST" name="testNextBtnEnabled3" finished-at="2022-01-24T14:09:25 IST" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVisibilityOfFilters -->
-        <test-method signature="testVisibilityOfStockCheckBox()[pri:7, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:16 IST" name="testVisibilityOfStockCheckBox" finished-at="2022-01-22T11:52:16 IST" duration-ms="29" status="PASS">
+        </test-method> <!-- testNextBtnEnabled3 -->
+        <test-method signature="testNextBtnEnabled2()[pri:18, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:25 IST" name="testNextBtnEnabled2" finished-at="2022-01-24T14:09:26 IST" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVisibilityOfStockCheckBox -->
-        <test-method signature="testVisibilityOfSortByOption()[pri:8, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:16 IST" name="testVisibilityOfSortByOption" finished-at="2022-01-22T11:52:16 IST" duration-ms="29" status="PASS">
+        </test-method> <!-- testNextBtnEnabled2 -->
+        <test-method signature="testNextBtnEnabled1()[pri:19, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:26 IST" name="testNextBtnEnabled1" finished-at="2022-01-24T14:09:31 IST" duration-ms="5281" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testVisibilityOfSortByOption -->
-        <test-method signature="printBookshelvesDetailsIncluding()[pri:9, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:16 IST" name="printBookshelvesDetailsIncluding" finished-at="2022-01-22T11:52:24 IST" duration-ms="8220" status="PASS">
+        </test-method> <!-- testNextBtnEnabled1 -->
+        <test-method signature="testSendOnList()[pri:20, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:31 IST" name="testSendOnList" finished-at="2022-01-24T14:09:31 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printBookshelvesDetailsIncluding -->
-        <test-method signature="printBookshelvesDetailsExcluding()[pri:10, instance:testClasses.UrbanLadderHomePage@5f058f00]" started-at="2022-01-22T11:52:24 IST" name="printBookshelvesDetailsExcluding" finished-at="2022-01-22T11:52:29 IST" duration-ms="5340" status="PASS">
+        </test-method> <!-- testSendOnList -->
+        <test-method signature="testInvalidEmail()[pri:21, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:31 IST" name="testInvalidEmail" finished-at="2022-01-24T14:09:32 IST" duration-ms="777" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printBookshelvesDetailsExcluding -->
+        </test-method> <!-- testInvalidEmail -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testClasses.UrbanLadderHomePage@595b007d]" started-at="2022-01-24T14:09:32 IST" name="close" finished-at="2022-01-24T14:09:32 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
       </class> <!-- testClasses.UrbanLadderHomePage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
